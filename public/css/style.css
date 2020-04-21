@@ -49,6 +49,7 @@ button{
     background: #888888;
     color: black;
     font-family: 'Times New Roman', Times, serif;
+    outline: none;
 }
 #message-1{
     font-family: 'Times New Roman', Times, serif;
