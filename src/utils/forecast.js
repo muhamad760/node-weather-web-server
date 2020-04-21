@@ -12,7 +12,9 @@ const forecast = (latitude,longitude,callback)=>{
         }else{
             callback(undefined,body.daily.data[0].summary+
                         " it's currently "+body.currently.temperature+" degrees out. There is "
-                    +body.currently.precipProbability+"% chance of rain");
+                    +body.currently.precipProbability+"% chance of rain minimum tempreture is "
+                    +body.daily.data[0].temperatureMin+" maximum tempreture is "+body.daily.data[0].temperatureMax+
+                    " through the day");
         }
     })
 

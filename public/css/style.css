@@ -62,3 +62,8 @@ button{
     font-size: 20px;
     margin-top: 16px;
 }
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 200;
+}
